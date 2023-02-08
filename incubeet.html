@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+  <header>
+		<div class="py-2 headlogo">
+		  <div class="container ">
+			<div class="row ">
+			  <a class="navbar-band">
+				<img src="./images/TBI.png" width="150px" height="50px">
+			  </a>
+			  <div class="col-lg-8 right-info-agiles mt-lg-0 mt-sm-3 mt-1">
+				<div class="row"></div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </header>
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-nav"> 
+		<div class="container-fluid">
+		  <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+			<ul class="navbar-nav justify-content-center">
+			  <li class="nav-item  ">
+				<a class="nav-link text-white" href="./page/html/home.html">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white " href="">Thrust areas</a>
+			  </li>  
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="./demo.html">Infrastructure</a>
+			  </li>  
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="">Faculties</a>
+			  </li>  
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="./activities.html">Activities</a>
+			  </li>  
+			  <li class="nav-item ">
+				<a class="nav-link text-white" href="./services.html">Services</a>
+			  </li>  
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="#">Schemes</a>
+			  </li>  
+			  <li class="nav-item active">
+				<a class="nav-link text-white active" href="./graduates.html">Incubeets</a>
+			  </li>  
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="#">Product</a>
+			  </li>  
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">Funding</a>
+				<ul class="dropdown-menu bg-light">
+				  <li><a class="dropdown-item text-white hi" href="#">Link</a></li>
+				  <li><a class="dropdown-item text-white hi" href="#">Another link</a></li>
+				  <li><a class="dropdown-item text-white hi" href="#">A third link</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white" href="#">Contact us
+			  </li>  
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+
+
+
+    
+    <div class="container py-5" >
+        <div class="text-center"><h1 class="text-black">Current Incubatees</h1></div>
+        <div class="dropdown">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Current Incubatees
+          </a>
+        
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="./graduates.html">Graduated Incubatees</a></li>
+           
+          </ul>
+        </div>
+        <br>
+
+        <table id="example" class="table table-striped" style="width:100%">
+            <thead> 
+                <tr>
+           <th> S.No </th>
+           <th> Incubatee </th>
+           <th> Domain / Sector</th>
+           <th> Website</th>
+           </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>1</td>
+           <td> Dynattral Tech Pvt Ltd </td>
+           <td>Industrial Automation </td>
+           <td> https://dynattral.in/ </td>
+         </tr>
+         <tr>
+           <td>2</td>
+           <td> Aran Tecnovation Pvt Ltd </td>
+           <td>Manufacturing </td>
+           <td> https://arantec.app </td>
+         </tr>
+         <tr>
+           <td>3</td>
+           <td> High Performance Engineering &amp; Research Pvt Ltd </td>
+           <td> Hardware / IoT </td>
+           <td> https://hiperautomotive.com/ </td>
+         </tr>
+         <tr>
+           <td>4</td>
+           <td> MachDatum Pvt Ltd </td>
+           <td> Hardware / IoT </td>
+           <td>https://www.machdatum.com/ </td>
+         </tr>
+         <tr>
+           <td>5</td>
+           <td> Chimertech Pvt Ltd </td>
+           <td>Veterinary Science </td>
+           <td> https://www.chimertech.com/ </td>
+         </tr>
+         <tr>
+           <td>6</td>
+           <td> Kaar Infotech Pvt Ltd </td>
+           <td>Software Development </td>
+           <td> https://www.kaarinfotech.com </td>
+         </tr>
+         <tr>
+           <td>7</td>
+           <td> Native Guru </td>
+           <td>Edutech </td>
+           <td> https://nativeguru.in/ </td>
+         </tr>
+         <tr>
+           <td>8</td>
+           <td> Digikriya Pvt Ltd </td>
+           <td>IT&nbsp;Service Management </td>
+           <td> https://www.digikriya.com/ </td>
+         </tr>
+         <tr>
+           <td>9</td>
+           <td> IcOnT Automations </td>
+           <td> Hardware Development </td>
+           <td> http://icont.co.in/ </td>
+         </tr>
+         <tr>
+           <td>10</td>
+           <td> Lepocube AssisTech (OPC) Ltd </td>
+           <td> Healthcare </td>
+           <td> https://lepocube-assistech.in </td>
+         </tr>
+         <tr>
+           <td>11</td>
+           <td> Maidee Games Pvt Ltd </td>
+           <td>Edu Tech </td>
+           <td> https://www.madiee.com/ </td>
+         </tr>
+         <tr>
+           <td>12</td>
+           <td> Skewess Tech Pvt Ltd </td>
+           <td>IT&nbsp;Service Management </td>
+           <td> http://skewess.com/ </td>
+         </tr>
+         <tr>
+           <td>13</td>
+           <td> Lspot Preventech </td>
+           <td> Healthcare </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>14</td>
+           <td> Nalvinai Energy Systems <strong></strong></td>
+           <td> Energy Solutions </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>15</td>
+           <td> K.G.Automation </td>
+           <td>Industrial Automation </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>16</td>
+           <td> Ligths Inc. </td>
+           <td> Fintech </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>17</td>
+           <td> AWS Research Centre </td>
+           <td> Agritech </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>18</td>
+           <td> Real Tech GPS Pvt Ltd </td>
+           <td> Automobile </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>19</td>
+           <td> Food Technics Pvt Ltd </td>
+           <td> Food Tech </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>20</td>
+           <td> Insta Innovator </td>
+           <td> Construction </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>21</td>
+           <td> Sun Crown Mechatronic Solution </td>
+           <td> Industry Automation </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>22</td>
+           <td> Techlair Automation </td>
+           <td> Agriculture </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>23</td>
+           <td> Nutrigenetics Life Science Pvt Ltd </td>
+           <td> Agritech </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>24</td>
+           <td> Pristyn Automations Pvt Ltd </td>
+           <td> Cleantech </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>25</td>
+           <td> Sugrah Mobility Pvt Ltd </td>
+           <td> EV </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>26</td>
+           <td> GSR Tech Solutions </td>
+           <td> Textile </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>27</td>
+           <td> Harvtech LLP </td>
+           <td> EV </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>28</td>
+           <td> DBS Tech Solutions </td>
+           <td> Textile </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>29</td>
+           <td> Vesrad Technlogies Pvt Ltd </td>
+           <td> Energy </td>
+           <td> http://www.vesrad.in/ </td>
+         </tr>
+         <tr>
+           <td>30</td>
+           <td> Progen Foods Pvt Ltd </td>
+           <td> Food Tech </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>31</td>
+           <td> Agram Agro Tech </td>
+           <td> Agriculture </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>32</td>
+           <td> MN Vesthar Farm Tech </td>
+           <td> Agriculture </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>33</td>
+           <td> SMT Flyash Bricks </td>
+           <td> Manufacturing </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>34</td>
+           <td> Natraj Glossy Coaters </td>
+           <td> Energy </td>
+           <td> - </td>
+         </tr>
+         <tr>
+           <td>35</td>
+           <td> Universal Industries </td>
+           <td> Agriculture </td>
+           <td> - </td>
+         </tr>
+       </tbody></table>
+       </div>
+
+
+       <footer>
+        <div class="container py-4 hi">
+          <div class="row py-xl-5 py-sm-3">
+            <div class="col-lg-6 map">
+              <h2 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">our
+                <span class="font-weight-bold">directions</span>
+              </h2>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3912.9360010727178!2d77.600249!3d11.2661149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7c4c269e29%3A0x59fc34a434cc7ac2!2sKongu%20Engineering%20College%20Entrance!5e0!3m2!1sen!2sin!4v1675694873265!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <div class="conta-posi-w3ls p-4 rounded">
+                <h5 class="text-white font-weight-bold mb-3">Address</h5>
+                <p> Kongu Engineering College Campus
+                  <span>Perundurai – 638 060,</span> Erode, TamilNadu</p>
+              </div>
+            </div>
+            <div class="col-lg-6 contact-agileits-w3layouts mt-lg-0 mt-4">
+              <h4 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">get in
+                <span class="font-weight-bold">touch</span>
+              </h4>
+              <p class="conta-para-style border-left pl-4 text-white">If you have any questions about the services we provide simply use the form below. We try and respond to all queries
+                and comments within 24 hours.</p>
+              <div class="subscribe-w3ls my-xl-5 my-4">
+                <h6 class="text-white text-capitalize mb-4">subscribe our newsletter</h6>
+                <form action="#" method="post" class="subscribe_form">
+                  <input class="form-control" type="email" name="email" placeholder="Enter your email..." required="">
+                  <button type="submit" class="btn btn-primary submit">Submit</button>
+                </form>
+              </div>
+              <div class="para-agileits-w3layouts text-white d-flex">
+                <div><span class="material-symbols-outlined ">distance</span></div><div class="ps-1">Perundurai – 638 060, Erode, TamilNadu</div></div>
+              <div class="para-agileits-w3layouts text-white my-sm-3 my-2 d-flex">
+                <div><span class="material-symbols-outlined ">
+                                add_call
+                                </span></div><br><div class="ps-1">+91-4294-226633, 226649, 226650</div></div>
+              <div class="para-agileits-w3layouts d-flex">
+                <div><span class="material-symbols-outlined">
+                                mail
+                                </span></div>
+                <div class="ps-2"><a href="mailto:mail@example.com" class=" text-white">info@example.com</a></div>
+                            </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-agiles py-3">
+          <div class="container">
+            <div class="row">
+              <p class="col-lg-8 copy-right-grids text-white text-lg-left text-center mt-lg-1">© 2018 Edulearn. All Rights Reserved | Design by
+                <a >Captain Cotton</a>
+              </p>
+              
+              <div class="social-icons text-lg-right text-center col-lg-4 mt-lg-0 mt-3">
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="fab fa-facebook-f icon-border facebook rounded-circle"> </a>
+                  </li>
+                  <li class="mx-2">
+                    <a href="#" class="fab fa-twitter icon-border twitter rounded-circle"> </a>
+                  </li>
+                  <li>
+                    <a href="#" class="fab fa-google-plus-g icon-border googleplus rounded-circle"> </a>
+                  </li>
+                  <li class="ml-2">
+                    <a href="#" class="fas fa-rss icon-border rss rounded-circle"> </a>
+                  </li>
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      </footer>
+       <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+    <script src="./page/html/navtop.js"></script>
+       <script src="in.js"></script>
+</body>
+</html>
