@@ -1,12 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Technology Business Incubator</title>
+    <!-- <link rel="stylesheet" href="./stylesheet/home.scss"> -->
+    <link rel="stylesheet" href="./stylesheet/home.css">
+    <link rel="stylesheet" href="./stylesheet/nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Poppins:wght@300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=PT+Serif:ital@1&family=Poppins:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./stylesheet/footer.css">
+    
+
+
+
+
 </head>
-<body>
-  <p>hai</p>
+
+<body class="head">
+    <!--navbar-->
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed ">
+            <div class="container-fluid">
+                <a class="navbar-brand" width href="./index.html"><img src="./images/TBI.png" alt="" width="160px"></a>
+                <div class="collapse navbar-collapse navbar-container" id="main_nav">
+                    <ul class=" navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <!-- <li class="nav-link active-link">
+                            <a href="#">Home
+                            </a>
+                            <div class="underline"></div>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              About 
+                            </a>
+                            <div class="underline"></div>
+                            <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                              <li class="line" ><a class="dropdown-link " href="./about.html">Overview</a></li>
+                              <li class="line"><a class="dropdown-link " href="./about.html">Mentors</a></li>
+                              <li class="line"><a class="dropdown-link " href="./about.html">process</a></li>
+                              <li class="line"><a class="dropdown-link " href="./about.html">Activities</a></li>
+                              <li class="line"><a class="dropdown-link " href="./about.html">Services</a></li>
+                              <br>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Funding
+                            </a>
+                            <div class="underline"></div>
+                            <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                              <li class="line"><a class="dropdown-link" href="#">Prayas</a></li>
+                              <li class="line"><a class="dropdown-link" href="./about.html">EDII-IVP</a></li>
+                              <li class="line"><a class="dropdown-link" href="#">Seed Fund</a></li>
+                              <li class="line"><a class="dropdown-link" href="./about.html">MSME</a></li>
+                              <br>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./facilities.html">Infrastructure</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact_us.html">Incubatee</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                            <div class="underline"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact_us.html">Contact</a>
+                            <div class="underline"></div>
+                        </li>
+                        
+                    </ul>
+                    <div class="nav-footer">
+
+                        <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"
+                                style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i
+                                class="fa-brands fa-linkedin-in"
+                                style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                        <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
+                                style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"
+                                style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- Button trigger modal -->
+                <div class="mobile-toggler d-lg-none">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                        <i class="fa fa-bars" style="font-weight: 1000; color: black; font-size: x-large;"></i>
+                    </a>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+                                <img src="./images/TBI.png" alt="Logo">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                        class="fa-solid fa-xmark"
+                                        style="font-weight: 1000; color: black; font-size: x-large;"></i></button>
+                            </div>
+
+                            <div class="modal-body">
+
+                                <div class="modal-line">
+                                    <a href="./index.html">Home</a>
+                                </div>
+
+                                <div class="modal-line">
+                                    <a href="./about.html">About us</a>
+                                </div>
+
+                                <div class="modal-line">
+                                    <a href="/cases">Cases</a>
+                                </div>
+
+                                <div class="modal-line">
+                                    <a href="./prayas.html">prayas</a>
+                                </div>
+
+                                <div class="modal-line">
+                                    <a href="/about">About</a>
+                                </div>
+
+
+                            </div>
+
+                            <div class="mobile-modal-footer">
+
+                                <a target="_blank" href="https://www.instagram.com/kongutbi"><i
+                                        class="fa-brands fa-instagram"
+                                        style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                                <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i
+                                        class="fa-brands fa-linkedin-in"
+                                        style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                                <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
+                                        style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                                <a target="_blank" href="https://www.facebook.com/KonguTBI"><i
+                                        class="fa-brands fa-facebook"
+                                        style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--bodyimg-->
+    <div class="body-img" class="container">
+        
+        <video  width="100%" height="500px" autoplay="autoplay" loop muted>
+            <source src="./video/Glimpse_of_CT_UG_Kongu_engineering_college_erode_or8CU493mfc_136.mp4" type="video/mp4">
+        </video>
+        <div class="centered">
+            <h1>TECHNOLOGY BUSINNES INCUBATOR - KEC</h1>
+        </div>
+    </div><br>
+
+    <!--About us-->
+    <div class="container">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <h1 class="title-about">About us</h1>
+            <div class="about-us  d-flex justify-content-between">
+
+                <div class="text-about col col-md-6 col-lg-6">
+                    <p>Technology business incubation is a dynamic process of business enterprise development.
+                        Incubators nurture young firms, helping them to survive and grow during the startup period when
+                        they are most vulnerable. It speeds up the commercialization of R&D outputs and creates
+                        additional avenues of employment.
+                    </p>
+
+                </div>
+                <div class="head-about col col-md-6 col-lg-6">
+                    <img src="./images/Virtual reality.gif" alt="amico" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--Thrust area-->
+    <div class="thrust-area">
+        <div class="complete-thrust" class="container-fluid ">
+            <div>Thrust Areas</div>
+            <div class="thrust" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="container">
+
+                <div class="thrust-item"><img src="./images/Operating system.gif" alt="" height="200px" ; width="300px"
+                        ;>
+                    <div class="thrust-text">Embedded systems</div>
+                </div>
+                <div class="thrust-item"><img src="./images/Product teardown.gif" alt="" height="200px" ; width="300px"
+                        ;>
+                    <div class="thrust-text">Assembly</div>
+                </div>
+                <div class="thrust-item"><img src="./images/Printed circuit board.gif" alt="" height="200px" ;
+                        width="300px" ;>
+                    <div class="thrust-text">Electronic card Design</div>
+                </div>
+                <div class="thrust-item"><img src="./images/QA engineers.gif" alt="" height="200px" ; width="300px" ;>
+                    <div class="thrust-text">Embedded systems</div>
+                </div>
+                <div class="thrust-item"><img src="./images/Innovation.gif" alt="" height="200px" ; width="300px" ;>
+                    <div class="thrust-text">Digital Signal Processign</div>
+                </div>
+                <div class="thrust-item"><img src="./images/Setup Analytics.gif" alt="" height="200px" ; width="300px"
+                        ;>
+                    <div class="thrust-text">Testing and Repair</div>
+                </div>
+            </div><br>
+        </div>
+    </div>
+    <br>
+    <!--Recent Updates-->
+    <div class="container">
+        <div class="fullrecent" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" class="container">
+            <div class="head-recent">Recent - Updates</div>
+            <div class="recent-updates">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://www.tbi-kec.org/recentupdates/2022_05_11_6.JPG" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>11 May 2022</h1>
+                            <p>Rs. 8.00 Lakh Funding Assistance to Mr.S.Sathesh for "Shuttle Changer"</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://www.tbi-kec.org/recentupdates/2022_04_19_2.JPG" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>19 April 2022</h1>
+                            <p>Workshop on Design Thinking</p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://www.tbi-kec.org/recentupdates/2022_04_19_2.JPG" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>19 April 2022</h1>
+                            <p>Workshop on Design Thinking</p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://www.tbi-kec.org/recentupdates/2022_04_19_2.JPG" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>19 April 2022</h1>
+                            <p>Workshop on Design Thinking</p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://www.tbi-kec.org/recentupdates/2022_04_09_2.JPG" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>09 April 2022</h1>
+                            <p>NSTEDB SSS Seed Fund Managing Committee Meeting for Project Selection </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://www.tbi-kec.org/recentupdates/2022_03_19_1.JPG" alt="Avatar"
+                                style="width:300px;height:300px;">
+                        </div>
+                        <div class="flip-card-back">
+                            <h1>19 March 2022</h1>
+                            <p>20th PRAYAS Monitoring Committee Review for Project Selection</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button type="button" class="btn btn-primary">Read More</button> -->
+            <input class="btn btn-color text-white" type="submit" value="Read more">
+        </div>
+    </div>
+    <br>
+    <div class="equipped">
+        <div class="text-equipped">Supported By</div><br>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="./images/patnership/Government/1.DST.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Government/2.TDB.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Government/3.MSME.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Government/DSTNIDHI.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Government/NSTEDB.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Investors/4.Campus Fund.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Investors/5.100X-VC.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Investors/6.NAN.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Intellectual/16.Metayage.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Service-support/11. AWS.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Service-support/12.Zoho.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Service-support/13.Solidworks.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Service-support/15.Geomagic Control x.png" height="100" width="250"
+                        alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./images/patnership/Service-support/15.Geomagic Design x (1).png" height="100" width="250"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="container py-4 hi">
+            <div class="row">
+                <div class="col-lg-6 map">
+                    <h2 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">our
+                        directions
+                    </h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3912.9360010727178!2d77.600249!3d11.2661149!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96d7c4c269e29%3A0x59fc34a434cc7ac2!2sKongu%20Engineering%20College%20Entrance!5e0!3m2!1sen!2sin!4v1675694873265!5m2!1sen!2sin"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="conta-posi-w3ls p-4 rounded">
+                        <h5 class="text-white font-weight-bold mb-3">Address</h5>
+                        <p> Kongu Engineering College Campus
+                            <span>Perundurai – 638 060,</span> Erode, TamilNadu
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 contact-agileits-w3layouts mt-lg-0 mt-4">
+                    <h4 class="contact-title text-capitalize text-white font-weight-light mb-sm-4 mb-3">get in
+                        touch
+                    </h4>
+                    <p class="conta-para-style border-left pl-4 text-white">If you have any questions about the services
+                        we provide simply use the form below. We try and respond to all queries
+                        and comments within 24 hours.</p>
+                    <br>
+                    <div class="para-agileits-w3layouts text-white d-flex">
+                        <div><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                        <div class="ps-1">Perundurai – 638 060, Erode, TamilNadu</div>
+                    </div>
+                    <div class="para-agileits-w3layouts text-white my-sm-3 my-2 d-flex">
+                        <div><i class="fa-solid fa-phone"></i></div>
+                        <div class="ps-1">+91-4294-226633, 226649, 226650</div>
+                    </div>
+                    <div class="para-agileits-w3layouts d-flex ">
+                        <div><i class="fa-solid fa-envelope"></i></div>
+                        <div class="ps-2"><a href="mailto:mail@example.com"
+                                class=" text-white text-decoration-none">info@example.com</a></div>
+                    </div>
+                    <div class="para-agileits-w3layouts d-flex ">
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                        <div class="ps-2"><a href="https://www.instagram.com/kongutbi"
+                                class=" text-white text-decoration-none">kongutbi</a></div>
+                    </div>
+                    <br>
+                    <div class="para-agileits-w3layouts d-flex ">
+                        <div><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="ps-2"><a href="https://www.linkedin.com/company/kongutbi/"
+                                class=" text-white text-decoration-none"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-agiles py-3">
+            <div class="container">
+
+                <p class=" copy-right-grids text-white text-lg-left text-center mt-lg-1">© 2022 @TBI_KEC. All Rights
+                    Reserved | Design by
+                    <a>IDOT</a>
+                </p>
+
+                <!-- <div class="social-icons text-lg-right text-center col-lg-4 mt-lg-0 mt-3 list">
+                    <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"></i></a>
+                    </div> -->
+
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./script/nav.js"></script>
 </body>
+
 </html>

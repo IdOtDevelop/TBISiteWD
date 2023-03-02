@@ -1,0 +1,56 @@
+
+#prayasLabimgCard:nth-child(odd){
+    margin-left: 5% !important;
+    
+
+}
+.item-facility{
+    font-size: 16px !important;
+}
+#imagePrayas>img{
+    filter: drop-shadow(20px 20px 20px black, 10px -16px 30px purple);
+    /* border: 1px solid black; */
+    z-index: 1;
+    filter: drop-shadow(7px 7px 5px);
+    
+
+}
+#button{
+    align-self: center !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 14px;
+    
+}
+#button>a{
+    text-decoration: none;
+    color: inherit;
+}
+#full-card{
+    background-color:#f7faff;
+}
+ @media only screen and (max-width: 840px) {
+     #prayasLabimgCard:nth-child(even){
+        margin-left: 0% !important;
+    }
+    #button{
+        align-self: center !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        
+    }
+    #equip-text{
+        line-height: 2rem !important;
+        text-align: center !important;
+        
+    } 
+    #equip-text>p{
+        font-size: 12px !important;
+    }
+}
+
+ 
