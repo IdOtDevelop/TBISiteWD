@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesheet/process.css">
+    <link rel="stylesheet" href="./stylesheet/nav.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Poppins:wght@300&family=Roboto:wght@500&display=swap"
+          rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!--nav-->
+<header> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed ">
+        <div class="container-fluid">
+            <a class="navbar-brand" width href="./index.html"><img src="./images/TBI.png" alt="" width="160px"></a>
+            <div class="collapse navbar-collapse navbar-container" id="main_nav">
+                <ul class=" navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <!-- <li class="nav-link active-link">
+                        <a href="#">Home
+                        </a>
+                        <div class="underline"></div>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About 
+                        </a>
+                        <div class="underline"></div>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                          <li class="line" ><a class="dropdown-link " href="./about.html">Overview</a></li>
+                          <li class="line"><a class="dropdown-link " href="./about.html">Mentors</a></li>
+                          <li class="line"><a class="dropdown-link " href="./about.html">process</a></li>
+                          <li class="line"><a class="dropdown-link " href="./about.html">Activities</a></li>
+                          <li class="line"><a class="dropdown-link " href="./about.html">Services</a></li>
+                          <br>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Funding
+                        </a>
+                        <div class="underline"></div>
+                        <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                          <li class="line"><a class="dropdown-link" href="#">Prayas</a></li>
+                          <li class="line"><a class="dropdown-link" href="./about.html">EDII-IVP</a></li>
+                          <li class="line"><a class="dropdown-link" href="#">Seed Fund</a></li>
+                          <li class="line"><a class="dropdown-link" href="./about.html">MSME</a></li>
+                          <br>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./facilities.html">Infrastructure</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact_us.html">Incubatee</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                        <div class="underline"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact_us.html">Contact</a>
+                        <div class="underline"></div>
+                    </li>
+                    
+                </ul>
+                <div class="nav-footer">
+
+                    <a target="_blank" href="https://www.instagram.com/kongutbi"><i class="fa-brands fa-instagram"
+                            style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i
+                            class="fa-brands fa-linkedin-in"
+                            style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                    <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
+                            style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/KonguTBI"><i class="fa-brands fa-facebook"
+                            style="font-weight: 900; font-size: x-large; color: #4caaf7;"></i></a>
+                </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa fa-bars" style="font-weight: 1000; color: black; font-size: x-large;"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <img src="./images/TBI.png" alt="Logo">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                                    class="fa-solid fa-xmark"
+                                    style="font-weight: 1000; color: black; font-size: x-large;"></i></button>
+                        </div>
+
+                        <div class="modal-body">
+
+                            <div class="modal-line">
+                                <a href="./index.html">Home</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="./about.html">About us</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="/cases">Cases</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="./prayas.html">prayas</a>
+                            </div>
+
+                            <div class="modal-line">
+                                <a href="/about">About</a>
+                            </div>
+
+
+                        </div>
+
+                        <div class="mobile-modal-footer">
+
+                            <a target="_blank" href="https://www.instagram.com/kongutbi"><i
+                                    class="fa-brands fa-instagram"
+                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/kongutbi/"><i
+                                    class="fa-brands fa-linkedin-in"
+                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                            <a target="_blank" href="https://twitter.com/kongutbi"><i class="fa-brands fa-twitter"
+                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                            <a target="_blank" href="https://www.facebook.com/KonguTBI"><i
+                                    class="fa-brands fa-facebook"
+                                    style="font-weight: 900; font-size: xx-large; color: #4caaf7;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--nav-->
+
+<div class="body-img" >
+  <img src="./images/startup.jpg" height="800px" width="100%">
+  <div class="centered">
+      <h1>TECHNOLOGY BUSINNES INCUNBATOR - KEC</h1>
+  </div>
+</div><br>
+    <!-- <ul class="honeycomb" lang="es">
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/1">
+          <div class="honeycomb-cell__title">Diseño exclusivo</div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/2">
+          <div class="honeycomb-cell__title">Impermeables</div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/3">
+          <div class="honeycomb-cell__title">Tablero doble cara</div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/4">
+          <div class="honeycomb-cell__title">Maletín de empaque</div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/5">
+          <div class="honeycomb-cell__title">Antireflectivo<small>No vidrio</small></div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/6">
+          <div class="honeycomb-cell__title">6 fichas<small>1 de repuesto</small></div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/7">
+          <div class="honeycomb-cell__title">Tablero magnético</div>
+        </li>
+        <li class="honeycomb-cell honeycomb__placeholder"></li>
+      </ul> -->
+      <h1 class="pro">Our Process</h1>
+<br> 
+<div class="container">
+<div id="progress-bar-container">
+	<ul>
+		<li class="step step01 active"><div class="step-inner">Concept Development</div></li>
+		<li class="step step02"><div class="step-inner">Proof of <br> Concept</div></li>
+		<li class="step step03"><div class="step-inner">Seed <br>Funding</div></li>
+		<li class="step step04"><div class="step-inner">Process & Product Development</div></li>
+		<li class="step step05"><div class="step-inner">field trials (prototype)</div></li>
+		<li class="step step06"><div class="step-inner">fine tuning and packaing</div></li>
+		<li class="step step07"><div class="step-inner">product <br> launch</div></li>
+		<li class="step step08"><div class="step-inner">sales <br> (revenue)</div></li>
+	</ul>
+	
+	<div id="line">
+		<div id="line-progress"></div>
+	</div>
+</div>
+
+<div id="progress-content-section">
+	<div class="section-content Concept_Development active">
+		<h2>Concept Development</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content Proof_of_Concept">
+		<h2>Proof of Concept</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content Seed_Funding">
+		<h2>Seed Funding</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content  Product_Development">
+		<h2>Process & Product Development</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+	
+	<div class="section-content prototype">
+		<h2>Field Trials <br> (Prototype)</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+    <div class="section-content packaing">
+		<h2>fine tuning and packaing</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+    <div class="section-content launch">
+		<h2>product launch</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div>
+    <div class="section-content revenue">
+		<h2>sales <br> (revenue)</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac, tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem. Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+	</div> 
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="./script/process.js"></script>
+</body>
+</html>
