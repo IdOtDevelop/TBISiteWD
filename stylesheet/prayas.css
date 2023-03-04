@@ -33,6 +33,23 @@
     width: 800px !important;
     line-height: 2rem;
 }
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 90px !important;
+    margin-right: 90px !important;
+}
+
+.title-about {
+    text-align: center;
+    font-weight: bold;
+}
+.text-about {
+    width: 750px;
+    font-size: 20px;
+    line-height: 2.5rem;
+}
 
 
 
@@ -98,6 +115,25 @@
     .centered>div>div>p{
         width: 300px !important;
         /* line-height: 2rem; */
+    }
+
+
+    .text-about {
+        width: 300px;
+        font-size: 64px !important;
+        line-height: 1.5rem;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .title-about {
+        text-align: center;
     }
     
     
