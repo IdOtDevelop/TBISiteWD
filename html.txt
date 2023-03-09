@@ -1,0 +1,96 @@
+<div class="container-fluid" id="full-card"><br><br>
+        <h2 class="text-center fw-bolder">Equipemnts for prototype</h2>
+        <div class="container d-flex flex-column justify-content-center align-item-center flex-lg-row-reverse justify-content-lg-between align-items-lg-center"
+            id="prayasLabimgCard">
+            <!-- <div class="container border border-5"> -->
+            <img src="./images/Lab/PrayasLab/Prototype/3D printers/Ultimaker-S5-desktop-3D-printer-hero.png" alt=""
+                height="400px" width="auto">
+            <!-- </div> -->
+            <div class="container lh-lg" id="equip-text">
+                <h3 class="fw-bolder text-center text-lg-start">Ultimaker S-5</h3>
+                <p align="justify" class="fs-4">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+                    Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+                    stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+                    parts with world-leading material compatibility, an award-winning touch interface, and filament
+                    run-out detection.</p><br>
+                <button type="button" class="btn btn-success" id="button">
+                    <a href="https://ultimaker.com/3d-printers/ultimaker-s5">Read More</a>
+                </button>
+            </div>
+        </div>
+
+        <!--equipment-->
+        <div class="container d-flex flex-column justify-content-center align-item-center flex-lg-row justify-content-lg-between align-items-lg-center"
+            id="prayasLabimgCard">
+            <!-- <div class="container border border-5"> -->
+            <img src="./images/Lab/PrayasLab/Prototype/3D printers/fabx-for-automotive.webp" alt="" height="400px"
+                width="auto">
+            <!-- </div> -->
+            <div class="container lh-lg" id="equip-text">
+                <h3 class="fw-bolder text-center text-lg-start">Ultimaker S-5</h3>
+                <p align="justify" class="fs-4">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+                    Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+                    stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+                    parts with world-leading material compatibility, an award-winning touch interface, and filament
+                    run-out detection.</p> <br>
+                <button type="button" class="btn btn-success" id="button">
+                    <a href="https://www.3ding.in/3dprinters/fabx-pro">Read More</a>
+                </button>
+            </div>
+        </div>
+        <!--equipemnt-->
+        <div class="container d-flex flex-column justify-content-center align-item-center flex-lg-row-reverse justify-content-lg-between align-items-lg-center"
+            id="prayasLabimgCard">
+            <!-- <div class="container border border-5"> -->
+            <img src="./images/Lab/PrayasLab/Prototype/3D printers/3DScanner-removebg-preview.png" alt="" height="400px"
+                width="auto">
+            <!-- </div> -->
+            <div class="container lh-lg" id="equip-text">
+                <h3 class="fw-bolder text-center text-lg-start">Ultimaker S-5</h3>
+                <p align="justify" class="fs-4 ">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+                    Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+                    stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+                    parts with world-leading material compatibility, an award-winning touch interface, and filament
+                    run-out detection.</p><br>
+                <button type="button" class="btn btn-success" id="button">
+                    <a href="https://www.einscan.com/handheld-3d-scanner/2x-plus/">Read More</a>
+                </button>
+            </div>
+        </div>
+        <div class="container d-flex flex-column justify-content-center align-item-center flex-lg-row-reverse justify-content-lg-between align-items-lg-center"
+            id="prayasLabimgCard">
+            <!-- <div class="container border border-5"> -->
+            <img src="./images/Lab/PrayasLab/Prototype/3D printers/Ultimaker-S5-desktop-3D-printer-hero.png" alt=""
+                height="400px" width="auto">
+            <!-- </div> -->
+            <div class="container lh-lg" id="equip-text">
+                <h3 class="fw-bolder text-center text-lg-start">Ultimaker S-5</h3>
+                <p align="justify" class="fs-4">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+                    Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+                    stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+                    parts with world-leading material compatibility, an award-winning touch interface, and filament
+                    run-out detection.</p><br>
+                <button type="button" class="btn btn-success" id="button">
+                    <a href="https://ultimaker.com/3d-printers/ultimaker-s5">Read More</a>
+                </button>
+            </div>
+        </div>
+        <div class="container d-flex flex-column justify-content-center align-item-center flex-lg-row-reverse justify-content-lg-between align-items-lg-center"
+            id="prayasLabimgCard">
+            <!-- <div class="container border border-5"> -->
+            <img src="./images/Lab/PrayasLab/Prototype/3D printers/Ultimaker-S5-desktop-3D-printer-hero.png" alt=""
+                height="400px" width="auto">
+            <!-- </div> -->
+            <div class="container lh-lg" id="equip-text">
+                <h3 class="fw-bolder text-center text-lg-start">Ultimaker S-5</h3>
+                <p align="justify" class="fs-4">Now you can turn the Ultimaker S5 into a metal-printing workhorse. The
+                    Ultimaker Metal Expansion Kit unlocks a simple workflow that makes exploring a new range of
+                    stainless steel applications easier, more efficient, and more affordable.Easily 3D print larger
+                    parts with world-leading material compatibility, an award-winning touch interface, and filament
+                    run-out detection.</p><br>
+                <button type="button" class="btn btn-success" id="button">
+                    <a href="https://ultimaker.com/3d-printers/ultimaker-s5">Read More</a>
+                </button>
+            </div>
+        </div>
+    </div>
