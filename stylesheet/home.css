@@ -334,6 +334,9 @@ body {
     .body-img {
         position: relative;
     }
+    .body-img>img{
+        border-radius: 0%;
+    };
 
     .body-img>video{
         height: 200px;
